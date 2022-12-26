@@ -496,7 +496,7 @@ input{
     display: block;
     justify-content: center;
     margin-top: 70px;
-    margin-left: 10px;
+    margin-left: 650px;
 }
 
 .h3_3{
@@ -507,7 +507,7 @@ input{
     font-weight: 400;
     font-size: 20px;
     line-height: 28px;
-    margin-left: -35px;
+    margin-left: 604px;
 }
 
 .design{
@@ -583,7 +583,7 @@ input{
     padding: 10px 40px;
     color: white;
     border-color: #E3B873;
-    margin: 10px -30px;
+    margin: 10px -20px;
 }
 
 .hero_5{
@@ -592,7 +592,6 @@ input{
     width: 1000px;
     height: 1000px;
     top: -650px;
-    left: 381px;
 }
 
 .container_5{
@@ -610,7 +609,7 @@ input{
     width: 506px;
     height: 555px;
     margin-top: 1200px;
-    margin-left: 600px;
+    margin-left: 940px;
 }
 
 .p_form{
@@ -644,7 +643,7 @@ input{
 }
 
 .checkbox_form{
-    margin: 0px 49px;
+    margin: 43px 49px;
 }
 
 .button_5{
@@ -655,18 +654,19 @@ input{
     padding: 20px 5px;
     color: white;
     border-color: #E3B873;
+    width: 260px;
+}
+
+.button_5.r{
     margin-top: 53px;
     margin-left: 221px;
-    width: 260px;
-    
 }
 
 .section5_background{
-    position: absolute;
+    position: relative;
     width: 1006px;
     height: 645px;
     margin-top: -550px;
-    right: 340px;
 }
 
 #circle{
@@ -674,7 +674,7 @@ input{
     position: absolute;
     width: 100px;
     height: 500px;
-    margin: -500px 0px 0px -110px;
+    margin: -600px 0px 0px 235px;
     list-style: none;
     flex-direction: column;
 }
@@ -706,7 +706,7 @@ input{
     position: absolute;
     width: 420px;
     height: 50px;
-    margin: -490px 0px 0px -25px;
+    margin: -582px 0px 0px 334px;
     list-style: none;
     flex-direction: column;
 }
@@ -718,6 +718,8 @@ input{
 
 #pig{
     display: flex;
+    margin-left: 324px;
+    margin-top: -60px;
 }
 
 .pig.circle{
@@ -839,13 +841,11 @@ input{
     width: 1440px;
     height: 864px;
     top: -600px;
-    left: 50%;
 }
 
 .container_7{
     margin-bottom: 25px;
-    margin-left: 46px;
-    margin-right: 379px;
+    margin-left: 686px;
 }
 
 .sect_7_h3{  
@@ -886,8 +886,7 @@ input{
     position: absolute;
     display: flex;
     justify-content: space-between;
-    margin: 195px 0px 0px 0px;
-    right: 39%;
+    margin: 195px 0px 0px -579px;
 }
 .person_block{
     width: 415px;
@@ -954,6 +953,21 @@ input{
     padding: 0px;
 }
 
+.background_img{
+    display: flex;
+    margin-left: -700px;
+    margin-top: 250px;
+}
+
+.u1{
+    margin-top: 51px;
+    margin-left: 48px;
+}
+
+.input_line.r{
+    width: 823px;
+}
+
 .form_2{
     position: relative;
     background-color: #000;
@@ -962,17 +976,103 @@ input{
     width: 1000px;
     height: 555px;
     top: -650px;
+    left: 215px;
+    z-index: 1;
 }
 
 .p_form_2{
     padding: 15px;
-    margin: 28px 104px;
+    margin: 28px 330px;
     width: 297px;
     height: 47px;
-    font-family: 'Nunito Sans';
+    font-family: 'Yeseva One';
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
-    line-height: 26px;
+    font-size: 20px;
+    line-height: 28px;
     text-align: center;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.label_form.r{
+    margin-left: 522px;
+    margin-top: -100px;
+}
+
+.checkbox_r{
+    display: flex;
+    align-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: -5px;
+}
+
+.back_0{
+    margin-left: 12px;
+}
+
+.back_1{
+    margin-left: -18px;
+}
+
+.last_section{
+    position: relative;
+    background-color: rgba(0, 0, 0, 1);
+    width: 1441px;
+    height: 1030px;
+    margin-top: -964px;
+}
+
+
+
+.background_photo{
+    height: 1030px;
+}
+
+.tenj{
+    position: relative;
+    top: -1035px;
+    height: 1030px;
+}
+
+.tenj2{
+
+}
+
+.last_h{
+    position: relative;
+    width: 1465px;
+    margin-top: -1696px;
+    z-index: 1;
+    text-align: center;
+    padding: 0px;
+}
+
+.icon_h{
+    position: relative;
+    display: flex;
+    z-index: 1;
+    justify-content: center;
+}
+
+.icon_margin{
+    margin: 5px;
+}
+
+.map{
+    position: relative;
+    z-index: 1;
+    left: 227px;
+}
+
+footer{
+    background-color: #000;
+    padding: 0 91px;
+    margin: 0 auto;
+    font-size: 11px;
+    line-height: 15px;
 }
